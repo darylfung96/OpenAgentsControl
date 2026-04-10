@@ -129,6 +129,8 @@ Agents:
    - `reviewer.md` - Code review and security
    - `coder-agent.md` - Focused implementations
    - `build-agent.md` - Type checking and builds
+   - `staff-security-engineer.md` - Security auditing and vulnerability analysis
+   - `staff-qa-engineer.md` - Staff SDET and quality assurance
 
 2. **core/** - Core workflow specialists
    - `task-manager.md` - Task breakdown and management
@@ -186,6 +188,12 @@ The system supports multiple path formats for backward compatibility:
 
 # Subagent path
 "TestEngineer" → resolves to → ".opencode/agent/subagents/code/test-engineer.md"
+
+# Subagent path
+"StaffSecurityEngineer" → resolves to → ".opencode/agent/subagents/code/staff-security-engineer.md"
+
+# Subagent path
+"StaffQAEngineer" → resolves to → ".opencode/agent/subagents/code/staff-qa-engineer.md"
 ```
 
 ### Resolution Rules

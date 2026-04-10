@@ -176,6 +176,29 @@ Execute coding subtasks with full context awareness, self-review, and quality va
 **Tools**: Read, Write, Edit, Glob, Grep  
 **Model**: sonnet
 
+### staff-security-engineer
+
+**Purpose**: Security auditing and vulnerability analysis
+
+**Capabilities**:
+- 5-lens security scanning (Auth/AuthZ, Data Protection, Input Validation, Dependency Security, Infrastructure/Config)
+- OWASP Top 10 mapping
+- CVSS-style severity ratings
+- Actionable findings with hardened code examples
+- Compliance checklist generation
+
+**Workflow**:
+1. Review pre-loaded security standards
+2. Analyze attack surface
+3. Propose audit plan (requires approval)
+4. Execute 5-lens security scan
+5. Run automated security scanners
+6. Generate findings report
+7. Self-review for coverage and quality
+8. Report results to main agent
+
+---
+
 ### test-engineer
 Generate comprehensive tests using TDD principles with coverage analysis and validation.
 
@@ -350,6 +373,8 @@ plugins/claude-code/
 │   ├── external-scout.md
 │   ├── coder-agent.md
 │   ├── test-engineer.md
+│   ├── staff-security-engineer.md
+│   ├── staff-qa-engineer.md
 │   └── code-reviewer.md
 ├── skills/                      # Workflow skills (8 files)
 │   ├── using-oac/SKILL.md
@@ -505,7 +530,7 @@ MIT License - see [LICENSE](../LICENSE) for details.
 
 ### Phase 1: Foundation ✅ COMPLETE
 - ✅ Plugin structure
-- ✅ 6 custom subagents (task-manager, context-scout, external-scout, coder-agent, test-engineer, code-reviewer)
+- ✅ 8 custom subagents (task-manager, context-scout, external-scout, coder-agent, test-engineer, code-reviewer, staff-security-engineer, staff-qa-engineer)
 - ✅ 8 workflow skills (using-oac, context-discovery, external-scout, task-breakdown, code-execution, test-generation, code-review, install-context, parallel-execution)
 - ✅ 4 user commands (/install-context, /oac:help, /oac:status, /oac:cleanup)
 - ✅ SessionStart hook for auto-loading using-oac skill

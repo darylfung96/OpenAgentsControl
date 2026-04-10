@@ -238,6 +238,37 @@
         "category": "standard"
       },
       {
+        "id": "staff-security-engineer",
+        "name": "StaffSecurityEngineer",
+        "type": "subagent",
+        "path": ".opencode/agent/subagents/code/staff-security-engineer.md",
+        "description": "Security auditing and vulnerability analysis specialist",
+        "tags": [
+          "security",
+          "vulnerability",
+          "compliance",
+          "audit"
+        ],
+        "dependencies": [],
+        "category": "standard"
+      },
+      {
+        "id": "staff-qa-engineer",
+        "name": "StaffQAEngineer",
+        "type": "subagent",
+        "path": ".opencode/agent/subagents/code/staff-qa-engineer.md",
+        "description": "Staff SDET and quality assurance specialist",
+        "tags": [
+          "testing",
+          "quality",
+          "SDET",
+          "QA",
+          "deterministic"
+        ],
+        "dependencies": [],
+        "category": "standard"
+      },
+      {
         "id": "frontend-specialist",
         "name": "OpenFrontendSpecialist",
         "type": "subagent",
@@ -335,7 +366,7 @@
         "type": "subagent",
         "path": ".opencode/agent/subagents/core/contextscout.md",
         "version": "5.1.0",
-        "description": "Get accurate context FIRST before diving deep\u2014save time, energy, and avoid rework. ContextScout intelligently discovers and retrieves the exact context files you need with precise file paths and line ranges, so you start with the right information instead of guessing. Optimized for multi-model compatibility (Claude, Gemini, GPT-4) with 20% token reduction.",
+        "description": "Get accurate context FIRST before diving deep—save time, energy, and avoid rework. ContextScout intelligently discovers and retrieves the exact context files you need with precise file paths and line ranges, so you start with the right information instead of guessing. Optimized for multi-model compatibility (Claude, Gemini, GPT-4) with 20% token reduction.",
         "tags": [
           "context",
           "search",
@@ -808,7 +839,7 @@
         "name": "Project Context",
         "type": "context",
         "path": ".opencode/context/project/project-context.md",
-        "description": "\u26d4 DEPRECATED: Replaced by project-intelligence/technical-domain.md",
+        "description": "⛔ DEPRECATED: Replaced by project-intelligence/technical-domain.md",
         "tags": [
           "deprecated",
           "context",
@@ -2652,7 +2683,7 @@
         "name": "Agent Metadata",
         "type": "context",
         "path": ".opencode/context/openagents-repo/core-concepts/agent-metadata.md",
-        "description": "...\\\"               # \u2705 Valid OpenCode field",
+        "description": "...\\\"               # ✅ Valid OpenCode field",
         "tags": [
           "development",
           "coding"

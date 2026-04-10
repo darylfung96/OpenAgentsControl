@@ -22,4 +22,4 @@ Then report in plain language:
 - **Context status:** installed profile + component count, or "not installed"
 - **Context root:** path from `.oac.json`, or "not pinned (run /install-context)"
 - **Available skills:** install-context, context-discovery, approach, debugger, verification-before-completion, task-breakdown, code-execution, test-generation, code-review, external-research, parallel-execution
-- **Available subagents:** context-scout, task-manager, coder-agent, test-engineer, code-reviewer, external-scout
+- **Available subagents:** context-scout, task-manager, coder-agent, test-engineer, code-reviewer, staff-security-engineer, staff-qa-engineer, external-scout

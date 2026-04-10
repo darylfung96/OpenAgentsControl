@@ -4,7 +4,21 @@
 ## Quick Reference
 
 **Core Philosophy**: Modular, Functional, Maintainable
+**Core Principles**: DRY,KISS,YAGNI,SOLID
 **Golden Rule**: If you can't easily test it, refactor it
+
+**Patterns and Principles**:
+- DRY (Don't Repeat Yourself)
+Every piece of knowledge or logic should have a single, unambiguous representation within a system. By eliminating redundancy through functions, classes, or modules, you ensure that a change to a business rule only needs to be made in one place, reducing bugs and maintenance overhead.
+
+- KISS (Keep It Simple, Stupid)
+Systems perform best and are easiest to maintain when they are kept simple rather than made complex. Avoid "clever" code or over-engineering that makes the logic hard to follow; prioritize readability and straightforward solutions that a peer can understand at a glance.
+
+- YAGNI (You Ain't Gonna Need It)
+Only implement functionality when it is actually required, not when you just foresee that it might be. This prevents "feature creep" and ensures the codebase isn't cluttered with speculative, unused abstractions that make future refactoring more difficult.
+
+- SOLID (Object-Oriented Design)
+These five principles—Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion—provide a framework for managing dependencies and complexity. Following SOLID ensures that your classes are decoupled, easy to extend without modification, and highly resilient to change.
 
 **Critical Patterns** (use these):
 - ✅ Pure functions (same input = same output, no side effects)

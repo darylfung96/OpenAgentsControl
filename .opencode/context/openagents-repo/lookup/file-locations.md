@@ -145,6 +145,8 @@ README.md                            # Main documentation
 .opencode/agent/subagents/code/test-engineer.md
 .opencode/agent/subagents/code/reviewer.md
 .opencode/agent/subagents/code/coder-agent.md
+.opencode/agent/subagents/code/staff-security-engineer.md
+.opencode/agent/subagents/code/staff-qa-engineer.md
 .opencode/agent/subagents/core/task-manager.md
 .opencode/agent/subagents/core/documentation.md
 ```
@@ -199,6 +201,8 @@ evals/framework/src/types/            # TypeScript types
 **Examples**:
 - `.opencode/agent/subagents/development/frontend-specialist.md`
 - `.opencode/agent/subagents/code/test-engineer.md`
+- `.opencode/agent/subagents/code/staff-security-engineer.md`
+- `.opencode/agent/subagents/code/staff-qa-engineer.md`
 
 ### Context
 

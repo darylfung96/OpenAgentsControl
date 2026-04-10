@@ -184,6 +184,9 @@ The system resolves agent paths flexibly:
 
 # Subagent path
 "TestEngineer" → ".opencode/agent/subagents/code/test-engineer.md"
+
+# Subagent path
+"StaffSecurityEngineer" → ".opencode/agent/subagents/code/staff-security-engineer.md"
 ```
 
 ---

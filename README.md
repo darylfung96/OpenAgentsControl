@@ -190,7 +190,7 @@ Add a login endpoint
 **Features:**
 - ✅ 6-stage workflow with approval gates
 - ✅ Context-aware code generation
-- ✅ 7 specialized subagents (task-manager, context-scout, context-manager, coder-agent, test-engineer, code-reviewer, external-scout)
+- ✅ 9 specialized subagents (task-manager, context-scout, context-manager, coder-agent, test-engineer, code-reviewer, staff-security-engineer, staff-qa-engineer, external-scout)
 - ✅ 9 workflow skills + 6 user commands
 - ✅ Flexible context discovery (.oac config, .claude/context, context, .opencode/context)
 - ✅ Add context from GitHub, worktrees, local files, or URLs
