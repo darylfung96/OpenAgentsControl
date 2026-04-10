@@ -16,6 +16,8 @@
     "subagent:reviewer",
     "subagent:tester",
     "subagent:build-agent",
+    "subagent:staff-security-engineer",
+    "subagent:staff-qa-engineer",
     "subagent:contextscout",
     "skill:task-management",
     "subagent:image-specialist",

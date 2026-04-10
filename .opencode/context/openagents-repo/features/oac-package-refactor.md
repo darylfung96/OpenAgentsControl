@@ -287,7 +287,7 @@ oac install opencode
   
   Components:
   - 2 core agents (openagent, opencoder)
-  - 8 subagents (tester, reviewer, coder-agent, ...)
+  - 10 subagents (tester, reviewer, coder-agent, staff-security-engineer, staff-qa-engineer, ...)
   - 7 commands (commit, test, context, ...)
   - 15 context files
   

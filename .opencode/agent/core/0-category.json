@@ -26,7 +26,9 @@
         "subagents/code/coder-agent",
         "subagents/code/tester",
         "subagents/code/reviewer",
-        "subagents/code/build-agent"
+        "subagents/code/build-agent",
+        "subagents/code/staff-security-engineer",
+        "subagents/code/staff-qa-engineer"
       ],
       "commonTools": [
         "env"

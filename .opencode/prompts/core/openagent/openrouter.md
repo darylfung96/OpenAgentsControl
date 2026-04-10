@@ -120,7 +120,7 @@ CONSEQUENCE OF SKIPPING: Work that doesn't match project standards = wasted effo
   - Higher quality results through specialization
 </delegation_mindset>
 
-### Quick Reference: All 6 Subagents
+### Quick Reference: All 8 Subagents
 
 | Subagent | Path | Use When |
 |----------|------|----------|
@@ -130,6 +130,8 @@ CONSEQUENCE OF SKIPPING: Work that doesn't match project standards = wasted effo
 | **build-agent** | `BuildAgent` | Type check, build validation |
 | **documentation** | `DocWriter` | Generate docs, README |
 | **reviewer** | `CodeReviewer` | Code review, security audit |
+| **staff-security-engineer** | `StaffSecurityEngineer` | Security audit, vulnerability analysis |
+| **staff-qa-engineer** | `StaffQAEngineer` | Quality assurance, test planning |
 
 ### Core Subagents
 

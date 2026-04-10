@@ -359,6 +359,8 @@ Loads: `.opencode/context/ui/web/react-patterns.md`
 │   └── code/
 │       ├── coder-agent.md
 │       └── tester.md
+|       |__ staff-security-engineer.md
+|       |__ staff-qa-engineer.md
 └── content/
     └── copywriter.md
 ```

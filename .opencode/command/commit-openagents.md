@@ -144,7 +144,7 @@ cd evals/framework && npm run eval:sdk -- --agent=core/opencoder --pattern="**/s
 - `agents/content` - Content category agents (copywriter, technical-writer)
 - `agents/data` - Data category agents (data-analyst)
 - `subagents/core` - Core subagents (task-manager, documentation, contextscout, externalscout)
-- `subagents/code` - Code subagents (coder-agent, tester, reviewer, build-agent)
+- `subagents/code` - Code subagents (coder-agent, tester, reviewer, build-agent, staff-security-engineer, staff-qa-engineer)
 - `subagents/development` - Development specialist subagents (frontend-specialist, devops-specialist)
 - `subagents/system-builder` - System builder subagents (domain-analyzer, agent-generator, context-organizer, workflow-designer, command-creator)
 - `subagents/utils` - Utility subagents (image-specialist)

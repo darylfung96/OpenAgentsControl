@@ -173,6 +173,8 @@ ERROR: Missing dependency: subagent:nonexistent
 - tester: Write unit and integration tests
 - build-agent: Type checking and validation
 - image-specialist: Generate and edit images
+- staff-security-engineer: Security auditing and vulnerability analysis specialist
+- staff-qa-engineer: Staff SDET and quality assurance specialist
 
 **Commands** (7 in Developer profile):
 - analyze-patterns: Analyze codebase for patterns

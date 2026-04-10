@@ -56,6 +56,8 @@ description: "Interactive system builder that creates complete context-aware AI 
         - reviewer: Code review, quality assurance
         - documentation: Documentation authoring
         - coder-agent: Code generation
+        - staff-security-engineer: Security auditing and vulnerability analysis specialist
+        - staff-qa-engineer: Staff SDET and quality assurance specialist
       </identify_capabilities>
     </detection_logic>
     <decision>
@@ -286,6 +288,8 @@ description: "Interactive system builder that creates complete context-aware AI 
         - reviewer: Code review and quality assurance
         - coder-agent: Code generation
         - documentation: Documentation authoring
+        - staff-security-engineer: Security auditing and vulnerability analysis
+        - staff-qa-engineer: Staff SDET and quality assurance specialist
       </for_development>
       
       <for_business>

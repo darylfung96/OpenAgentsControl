@@ -253,7 +253,7 @@ task(
       IF complexity = "complex" AND (4+ files OR >60min OR task breakdown needed):
         → Go to Step 4A: Delegate with Session Context
       
-      ELSE IF delegating to specialist (tester, reviewer, coder-agent):
+      ELSE IF delegating to specialist (tester, reviewer, coder-agent, staff-security-engineer, staff-qa-engineer):
         → Go to Step 4B: Delegate with Inline Context
       
       ELSE:
@@ -412,8 +412,8 @@ task(
     <!-- STEP 4B: Delegate with Inline Context (Simple Delegation)               -->
     <!-- ─────────────────────────────────────────────────────────────────────── -->
     <step id="4B" name="DelegateInline">
-      <when>Simple delegation to specialists (tester, reviewer, coder-agent)</when>
-      <subagents>TestEngineer, CodeReviewer, CoderAgent, BuildAgent</subagents>
+      <when>Simple delegation to specialists (tester, reviewer, coder-agent, staff-security-engineer, staff-qa-engineer)</when>
+      <subagents>TestEngineer, CodeReviewer, CoderAgent, BuildAgent, StaffSecurityEngineer, StaffQAEngineer</subagents>
       
       <process>
         1. NO session file needed - pass context directly in prompt
