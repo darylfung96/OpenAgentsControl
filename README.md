@@ -18,10 +18,10 @@
 **Model Agnostic:** Claude • GPT • Gemini • MiniMax • Local models
 
 
-[![GitHub stars](https://img.shields.io/github/stars/darrenhinde/OpenAgentsControl?style=flat-square&logo=github&labelColor=black&color=ffcb47)](https://github.com/darylfung96/OpenAgentsControl/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/darylfung96/OpenAgentsControl?style=flat-square&logo=github&labelColor=black&color=ffcb47)](https://github.com/darylfung96/OpenAgentsControl/stargazers)
 [![X Follow](https://img.shields.io/twitter/follow/DarrenBuildsAI?style=flat-square&logo=x&labelColor=black&color=1DA1F2)](https://x.com/DarrenBuildsAI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-3fb950?style=flat-square&labelColor=black)](https://opensource.org/licenses/MIT)
-[![Last Commit](https://img.shields.io/github/last-commit/darrenhinde/OpenAgentsControl?style=flat-square&labelColor=black&color=8957e5)](https://github.com/darylfung96/OpenAgentsControl/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/darylfung96/OpenAgentsControl?style=flat-square&labelColor=black&color=8957e5)](https://github.com/darylfung96/OpenAgentsControl/commits/main)
 
 [🚀 Quick Start](#-quick-start) • [💻 Show Me Code](#-example-workflow) • [🗺️ Roadmap](https://github.com/darylfung96/OpenAgentsControl/projects) • [💬 Community](https://nextsystems.ai)
 
@@ -122,21 +122,21 @@ Use any AI model (Claude, GPT, Gemini, local). No vendor lock-in.
 **One command:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s developer
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash -s developer
 ```
 
 <sub>The installer will set up OpenCode CLI if you don't have it yet.</sub>
 
 **Or interactive:**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh -o install.sh
 bash install.sh
 ```
 
 ### Keep Updated
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/update.sh | bash
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/update.sh | bash
 ```
 
 > Use `--install-dir PATH` if you installed to a custom location (e.g. `~/.config/opencode`).
@@ -169,7 +169,7 @@ opencode --agent OpenAgent
 
 1. Register the marketplace:
 ```bash
-/plugin marketplace add darrenhinde/OpenAgentsControl
+/plugin marketplace add darylfung96/OpenAgentsControl
 ```
 
 2. Install the plugin:
@@ -804,7 +804,7 @@ See: [Contributing Guide](docs/contributing/CONTRIBUTING.md) • [Code of Conduc
 [![YouTube](https://img.shields.io/badge/YouTube-Darren_Builds_AI-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@DarrenBuildsAI)
 [![Community](https://img.shields.io/badge/Community-NextSystems.ai-blue?style=for-the-badge&logo=discourse&logoColor=white)](https://nextsystems.ai)
 [![X/Twitter](https://img.shields.io/badge/Follow-@DarrenBuildsAI-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://x.com/DarrenBuildsAI)
-[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/darrenhinde)
+[![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/darylfung96)
 
 **📺 Tutorials & Demos** • **💬 Join Waitlist** • **🐦 Latest Updates** • **☕ Support Development**
 

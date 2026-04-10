@@ -3,11 +3,19 @@
   "description": "OpenAgentsControl — multi-agent orchestration for Claude Code. Context-aware development with skills, subagents, parallel execution, and automated code review.",
   "version": "1.0.2",
   "author": {
-    "name": "darrenhinde",
+    "name": "darylfung96",
     "url": "https://github.com/darylfung96"
   },
   "license": "MIT",
   "repository": "https://github.com/darylfung96/OpenAgentsControl",
   "homepage": "https://github.com/darylfung96/OpenAgentsControl#readme",
-  "keywords": ["code-review", "tdd", "multi-agent", "context-aware", "task-management", "parallel-execution", "workflow"]
+  "keywords": [
+    "code-review",
+    "tdd",
+    "multi-agent",
+    "context-aware",
+    "task-management",
+    "parallel-execution",
+    "workflow"
+  ]
 }

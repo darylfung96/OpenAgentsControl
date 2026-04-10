@@ -14,24 +14,24 @@
 
 ### macOS / Linux
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s essential
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash -s essential
 ```
 
 ### Windows (Git Bash)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s essential
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash -s essential
 ```
 
 ### Windows (PowerShell)
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh" -OutFile "install.sh"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh" -OutFile "install.sh"
 & "C:\Program Files\Git\bin\bash.exe" install.sh essential
 ```
 
 ## Test Your System
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/scripts/tests/test-compatibility.sh | bash
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/scripts/tests/test-compatibility.sh | bash
 ```
 
 ## Key Compatibility Features

@@ -2,7 +2,7 @@
   "name": "oac-marketplace",
   "description": "AI-powered development workflow automation - code review, testing, documentation, and task management for Claude Code",
   "owner": {
-    "name": "darrenhinde",
+    "name": "darylfung96",
     "url": "https://github.com/darylfung96/OpenAgentsControl"
   },
   "plugins": [
@@ -12,7 +12,7 @@
       "description": "Ship faster with AI-powered development workflows. Automates code review, test generation, documentation, and task breakdown. Context-aware agents understand your codebase and enforce your team's standards.",
       "version": "1.0.0",
       "author": {
-        "name": "darrenhinde",
+        "name": "darylfung96",
         "url": "https://github.com/darylfung96"
       },
       "license": "MIT",
@@ -23,7 +23,9 @@
     {
       "name": "Development Tools",
       "description": "Tools for software development and automation",
-      "plugins": ["oac"]
+      "plugins": [
+        "oac"
+      ]
     }
   ]
 }

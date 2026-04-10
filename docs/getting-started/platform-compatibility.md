@@ -11,10 +11,10 @@ The OpenAgents Control installer is designed to work across multiple platforms a
 
 ```bash
 # Standard installation
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash
 
 # Profile-based installation
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s core
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash -s core
 ```
 
 **Dependencies:**
@@ -32,10 +32,10 @@ brew install curl jq
 
 ```bash
 # Standard installation
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash
 
 # Profile-based installation
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s developer
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash -s developer
 ```
 
 **Dependencies:**
@@ -90,10 +90,10 @@ apk add curl jq bash
 **Run Installer:**
 ```bash
 # Standard installation
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash
 
 # Profile-based installation
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash -s full
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash -s full
 ```
 
 #### Option 2: WSL (Windows Subsystem for Linux)
@@ -110,7 +110,7 @@ wsl --install
 **Run Installer:**
 ```bash
 # In WSL terminal
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh | bash
 ```
 
 **Dependencies:**
@@ -125,7 +125,7 @@ sudo apt-get install curl jq
 
 ```powershell
 # Download the script
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh" -OutFile "install.sh"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh" -OutFile "install.sh"
 
 # Run with Git Bash
 & "C:\Program Files\Git\bin\bash.exe" install.sh core
@@ -200,7 +200,7 @@ Run the compatibility test to verify your system:
 
 ```bash
 # Download and run the test
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/scripts/tests/test-compatibility.sh | bash
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/scripts/tests/test-compatibility.sh | bash
 ```
 
 Or manually:
@@ -232,7 +232,7 @@ The test checks:
 **Status:** ✅ **FIXED in v1.1.0**  
 **Solution:** Update to the latest installer:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh > install.sh
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh > install.sh
 bash install.sh developer
 ```
 
@@ -246,7 +246,7 @@ bash install.sh developer
 **Cause:** Using bash version < 4.0  
 **Solution:** This should be fixed in the latest version. Update the installer:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh > install.sh
+curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh > install.sh
 bash install.sh developer
 ```
 
@@ -303,7 +303,7 @@ sudo bash install.sh core
 **Solution:** Use Git Bash or WSL:
 ```powershell
 # Download first
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/install.sh" -OutFile "install.sh"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/install.sh" -OutFile "install.sh"
 
 # Run with Git Bash
 & "C:\Program Files\Git\bin\bash.exe" install.sh
@@ -361,7 +361,7 @@ If you encounter issues:
 
 1. **Run the compatibility test:**
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/scripts/tests/test-compatibility.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/scripts/tests/test-compatibility.sh | bash
    ```
 
 2. **Check your bash version:**

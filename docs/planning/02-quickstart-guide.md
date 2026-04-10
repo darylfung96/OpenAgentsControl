@@ -327,7 +327,7 @@ export type OACConfig = z.infer<typeof OACConfigSchema>;
     "cacheEnabled": true
   },
   "registry": {
-    "source": "https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/main/registry.json",
+    "source": "https://raw.githubusercontent.com/darylfung96/OpenAgentsControl/main/registry.json",
     "localCache": "~/.config/oac/registry.cache.json",
     "updateInterval": 86400
   }

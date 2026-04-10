@@ -11,7 +11,7 @@
 
 This guide covers how to work with GitHub issues and the project board to track and process different requests, features, and improvements.
 
-**Project Board**: https://github.com/users/darrenhinde/projects/2/views/2
+**Project Board**: https://github.com/users/darylfung96/projects/2/views/2
 
 **Time**: Varies by task
 
@@ -21,22 +21,22 @@ This guide covers how to work with GitHub issues and the project board to track 
 
 ```bash
 # List issues
-gh issue list --repo darrenhinde/OpenAgentsControl
+gh issue list --repo darylfung96/OpenAgentsControl
 
 # Create issue
-gh issue create --repo darrenhinde/OpenAgentsControl --title "Title" --body "Body" --label "label1,label2"
+gh issue create --repo darylfung96/OpenAgentsControl --title "Title" --body "Body" --label "label1,label2"
 
 # Add issue to project
-gh project item-add 2 --owner darrenhinde --url https://github.com/darylfung96/OpenAgentsControl/issues/NUMBER
+gh project item-add 2 --owner darylfung96 --url https://github.com/darylfung96/OpenAgentsControl/issues/NUMBER
 
 # View issue
-gh issue view NUMBER --repo darrenhinde/OpenAgentsControl
+gh issue view NUMBER --repo darylfung96/OpenAgentsControl
 
 # Update issue
-gh issue edit NUMBER --repo darrenhinde/OpenAgentsControl --add-label "new-label"
+gh issue edit NUMBER --repo darylfung96/OpenAgentsControl --add-label "new-label"
 
 # Close issue
-gh issue close NUMBER --repo darrenhinde/OpenAgentsControl
+gh issue close NUMBER --repo darylfung96/OpenAgentsControl
 ```
 
 ---
@@ -81,14 +81,14 @@ gh issue close NUMBER --repo darrenhinde/OpenAgentsControl
 ```bash
 # Basic issue
 gh issue create \
-  --repo darrenhinde/OpenAgentsControl \
+  --repo darylfung96/OpenAgentsControl \
   --title "Add new feature X" \
   --body "Description of feature" \
   --label "feature,priority-medium"
 
 # Feature with detailed body
 gh issue create \
-  --repo darrenhinde/OpenAgentsControl \
+  --repo darylfung96/OpenAgentsControl \
   --title "Build plugin system" \
   --label "feature,framework,priority-high" \
   --body "$(cat <<'EOF'
@@ -119,7 +119,7 @@ EOF
 ```bash
 # Add issue to project
 gh project item-add 2 \
-  --owner darrenhinde \
+  --owner darylfung96 \
   --url https://github.com/darylfung96/OpenAgentsControl/issues/NUMBER
 ```
 
@@ -129,7 +129,7 @@ gh project item-add 2 \
 # Add issues 137-142 to project
 for i in {137..142}; do
   gh project item-add 2 \
-    --owner darrenhinde \
+    --owner darylfung96 \
     --url https://github.com/darylfung96/OpenAgentsControl/issues/$i
 done
 ```
@@ -138,7 +138,7 @@ done
 
 ```bash
 # View project items
-gh project item-list 2 --owner darrenhinde --format json | jq '.items[] | {title, status}'
+gh project item-list 2 --owner darylfung96 --format json | jq '.items[] | {title, status}'
 ```
 
 ---
@@ -165,12 +165,12 @@ gh project item-list 2 --owner darrenhinde --format json | jq '.items[] | {title
 ```bash
 # Assign to yourself
 gh issue edit NUMBER \
-  --repo darrenhinde/OpenAgentsControl \
+  --repo darylfung96/OpenAgentsControl \
   --add-assignee @me
 
 # Assign to someone else
 gh issue edit NUMBER \
-  --repo darrenhinde/OpenAgentsControl \
+  --repo darylfung96/OpenAgentsControl \
   --add-assignee username
 ```
 
@@ -182,7 +182,7 @@ gh issue edit NUMBER \
 
 1. **Assign issue to yourself**
    ```bash
-   gh issue edit NUMBER --repo darrenhinde/OpenAgentsControl --add-assignee @me
+   gh issue edit NUMBER --repo darylfung96/OpenAgentsControl --add-assignee @me
    ```
 
 2. **Move to "In Progress"** (via web UI)
@@ -202,7 +202,7 @@ gh issue edit NUMBER \
 ```bash
 # Add comment to issue
 gh issue comment NUMBER \
-  --repo darrenhinde/OpenAgentsControl \
+  --repo darylfung96/OpenAgentsControl \
   --body "Progress update: Completed X, working on Y"
 ```
 
@@ -211,7 +211,7 @@ gh issue comment NUMBER \
 1. **Create PR**
    ```bash
    gh pr create \
-     --repo darrenhinde/OpenAgentsControl \
+     --repo darylfung96/OpenAgentsControl \
      --title "Fix #NUMBER: Description" \
      --body "Closes #NUMBER\n\nChanges:\n- Change 1\n- Change 2"
    ```
@@ -254,14 +254,14 @@ For complex features, create parent issue and subtasks:
 ```bash
 # Parent issue
 gh issue create \
-  --repo darrenhinde/OpenAgentsControl \
+  --repo darylfung96/OpenAgentsControl \
   --title "[EPIC] Plugin System" \
   --label "feature,framework,priority-high" \
   --body "Parent issue for plugin system work"
 
 # Subtask issues
 gh issue create \
-  --repo darrenhinde/OpenAgentsControl \
+  --repo darylfung96/OpenAgentsControl \
   --title "Plugin manifest system" \
   --label "feature" \
   --body "Part of #PARENT_NUMBER\n\nImplement plugin.json manifest"
