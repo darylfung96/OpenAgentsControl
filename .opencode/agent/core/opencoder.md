@@ -464,7 +464,7 @@ Code Standards
   <!-- ─────────────────────────────────────────────────────────────────── -->
   <stage id="6" name="ValidateAndHandoff" enforce="@stop_on_failure">
     1. Run full system integration tests.
-    2. Suggest `TestEngineer` or `CodeReviewer` if not already run.
+    2. Suggest `TestEngineer`, `staff-security-engineer`, `staff-qa-engineer` or `CodeReviewer` if not already run.
        - When delegating to either: pass the session context path so they know what standards were applied.
     3. Summarize what was built.
     4. Ask user to clean up `.tmp` session and task files.

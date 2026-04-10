@@ -89,6 +89,13 @@ CONSEQUENCE OF SKIPPING: Work that doesn't match project standards = wasted effo
 - `TaskManager` - Break down complex features (4+ files, >60min)
 - `DocWriter` - Generate comprehensive documentation
 
+**Specialist Subagents** (suggest to delegate after implementation):
+- `TestEngineer` - after any code implementation that requires testing— writes comprehensive tests
+- `CodeReviewer` - Review code for quality, security, and patterns
+- `BuildAgent` - Type check and validate builds
+- `StaffSecurityEngineer` - Security auditing and vulnerability analysis specialist
+- `StaffQAEngineer` - Staff SDET and quality assurance specialist
+
 **When to Use Which**:
 
 | Scenario | ContextScout | ExternalScout | Both |
@@ -389,6 +396,9 @@ task(
             - Wait for completion
          3. **Batch 3** (Sequential): Delegate Task 5 (integration)
             - Only starts after Task 4 is done
+         4. **After All Batches Complete**: Delegate to TestEngineer
+            - Pass all deliverable files for comprehensive test coverage
+            - Wait for test results before summarizing
        </example>
        
        <benefits>
@@ -417,6 +427,29 @@ task(
   <stage id="4" name="Validate" enforce="@stop_on_failure">
     <prerequisites>Task executed (Stage 3 complete), context applied</prerequisites>
     Check quality→Verify complete→Test if applicable
+    
+    <rule id="test_after_code">
+      IF the task involved writing or editing code (bash/write/edit on source files):
+      → Delegate to TestEngineer MANDATORY. Do not skip. Do not just ask user.
+      → Pass the list of new/modified files so TestEngineer knows what to test.
+      
+      task(subagent_type="TestEngineer", description="Test implemented code",
+           prompt="Context to load:
+                   - .opencode/context/core/standards/test-coverage.md
+                   
+                   Task: Write comprehensive tests for the following newly implemented or modified code:
+                   - [list of files changed]
+                   
+                   Requirements:
+                   - Positive and negative test cases for every behavior
+                   - Arrange-Act-Assert pattern
+                   - Mock external dependencies
+                   - Edge case coverage")
+      
+      Wait for TestEngineer results before proceeding to summary.
+      If tests fail → STOP → Report → Propose fix → Request approval → Fix → Re-run tests.
+    </rule>
+    
     <on_failure enforce="@report_first">STOP→Report→Propose fix→Req approval→Fix→Re-validate</on_failure>
     <on_success>Ask: "Run additional checks or review work before summarize?" | Options: Run tests | Check files | Review changes | Proceed</on_success>
     <checkpoint>Quality verified, no errors, or fixes approved and applied</checkpoint>
