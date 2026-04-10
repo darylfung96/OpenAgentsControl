@@ -4,10 +4,10 @@
   "version": "1.0.2",
   "author": {
     "name": "darrenhinde",
-    "url": "https://github.com/darrenhinde"
+    "url": "https://github.com/darylfung96"
   },
   "license": "MIT",
-  "repository": "https://github.com/darrenhinde/OpenAgentsControl",
-  "homepage": "https://github.com/darrenhinde/OpenAgentsControl#readme",
+  "repository": "https://github.com/darylfung96/OpenAgentsControl",
+  "homepage": "https://github.com/darylfung96/OpenAgentsControl#readme",
   "keywords": ["code-review", "tdd", "multi-agent", "context-aware", "task-management", "parallel-execution", "workflow"]
 }

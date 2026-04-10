@@ -92,9 +92,9 @@ make project-items
 
 **Add issue to project:**
 ```bash
-make add-to-project ISSUE_URL=https://github.com/darrenhinde/OpenAgentsControl/issues/123
+make add-to-project ISSUE_URL=https://github.com/darylfung96/OpenAgentsControl/issues/123
 # or
-gh project item-add 2 --owner darrenhinde --url https://github.com/darrenhinde/OpenAgentsControl/issues/123
+gh project item-add 2 --owner darrenhinde --url https://github.com/darylfung96/OpenAgentsControl/issues/123
 ```
 
 ---
@@ -197,7 +197,7 @@ make issue-close NUM=42
 ## 🔗 Resources
 
 - **Project Board:** https://github.com/users/darrenhinde/projects/2
-- **Repository:** https://github.com/darrenhinde/OpenAgentsControl
+- **Repository:** https://github.com/darylfung96/OpenAgentsControl
 - **GitHub CLI Docs:** https://cli.github.com/manual/
 
 ---

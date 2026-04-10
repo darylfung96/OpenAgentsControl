@@ -140,7 +140,7 @@ issue-close: ## Close an issue (requires NUM)
 add-to-project: ## Add an issue to the project (requires ISSUE_URL)
 	@if [ -z "$(ISSUE_URL)" ]; then \
 		echo "Error: ISSUE_URL is required"; \
-		echo "Usage: make add-to-project ISSUE_URL=https://github.com/darrenhinde/OpenAgents/issues/123"; \
+		echo "Usage: make add-to-project ISSUE_URL=https://github.com/darylfung96/OpenAgents/issues/123"; \
 		exit 1; \
 	fi
 	@gh project item-add $(PROJECT_NUMBER) --owner $(OWNER) --url "$(ISSUE_URL)"

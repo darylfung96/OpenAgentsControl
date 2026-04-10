@@ -61,4 +61,4 @@ See [Platform Compatibility Guide](docs/getting-started/platform-compatibility.m
 
 1. Run compatibility test: `bash scripts/tests/test-compatibility.sh`
 2. Check bash version: `bash --version`
-3. Report issues: [GitHub Issues](https://github.com/darrenhinde/OpenAgentsControl/issues)
+3. Report issues: [GitHub Issues](https://github.com/darylfung96/OpenAgentsControl/issues)

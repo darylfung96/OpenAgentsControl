@@ -430,7 +430,7 @@ npm run build
 - Inquirer: https://github.com/SBoudrias/Inquirer.js
 
 **GitHub**:
-- Issue: https://github.com/darrenhinde/OpenAgentsControl/issues/206
+- Issue: https://github.com/darylfung96/OpenAgentsControl/issues/206
 - Branch: `feature/oac-package-refactor`
 
 ---

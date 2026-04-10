@@ -656,8 +656,8 @@ After installation:
 
 - **View installer help:** `./install.sh --help`
 - **List components:** `./install.sh --list`
-- **Documentation:** [GitHub Repository](https://github.com/darrenhinde/OpenAgentsControl)
-- **Report issues:** [GitHub Issues](https://github.com/darrenhinde/OpenAgentsControl/issues)
+- **Documentation:** [GitHub Repository](https://github.com/darylfung96/OpenAgentsControl)
+- **Report issues:** [GitHub Issues](https://github.com/darylfung96/OpenAgentsControl/issues)
 
 ---
 

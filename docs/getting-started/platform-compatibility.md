@@ -207,7 +207,7 @@ Or manually:
 
 ```bash
 # Clone the repo
-git clone https://github.com/darrenhinde/OpenAgentsControl.git
+git clone https://github.com/darylfung96/OpenAgentsControl.git
 cd OpenAgentsControl
 
 # Run the test
@@ -331,7 +331,7 @@ If you can't use the installer:
 
 ```bash
 # 1. Clone or download the repository
-git clone https://github.com/darrenhinde/OpenAgentsControl.git
+git clone https://github.com/darylfung96/OpenAgentsControl.git
 cd OpenAgentsControl
 
 # 2a. Install locally (recommended - in your project directory):
@@ -376,7 +376,7 @@ If you encounter issues:
    ```
 
 4. **Report issues:**
-   - [GitHub Issues](https://github.com/darrenhinde/OpenAgentsControl/issues)
+   - [GitHub Issues](https://github.com/darylfung96/OpenAgentsControl/issues)
    - Include: Platform, Bash version, Error message
 
 ---

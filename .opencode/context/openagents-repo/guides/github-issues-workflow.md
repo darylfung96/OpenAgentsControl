@@ -27,7 +27,7 @@ gh issue list --repo darrenhinde/OpenAgentsControl
 gh issue create --repo darrenhinde/OpenAgentsControl --title "Title" --body "Body" --label "label1,label2"
 
 # Add issue to project
-gh project item-add 2 --owner darrenhinde --url https://github.com/darrenhinde/OpenAgentsControl/issues/NUMBER
+gh project item-add 2 --owner darrenhinde --url https://github.com/darylfung96/OpenAgentsControl/issues/NUMBER
 
 # View issue
 gh issue view NUMBER --repo darrenhinde/OpenAgentsControl
@@ -120,7 +120,7 @@ EOF
 # Add issue to project
 gh project item-add 2 \
   --owner darrenhinde \
-  --url https://github.com/darrenhinde/OpenAgentsControl/issues/NUMBER
+  --url https://github.com/darylfung96/OpenAgentsControl/issues/NUMBER
 ```
 
 ### Add Multiple Issues
@@ -130,7 +130,7 @@ gh project item-add 2 \
 for i in {137..142}; do
   gh project item-add 2 \
     --owner darrenhinde \
-    --url https://github.com/darrenhinde/OpenAgentsControl/issues/$i
+    --url https://github.com/darylfung96/OpenAgentsControl/issues/$i
 done
 ```
 
