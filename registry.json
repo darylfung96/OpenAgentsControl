@@ -733,6 +733,22 @@
     ],
     "skills": [
       {
+        "id": "code-quality",
+        "name": "Code Quality",
+        "type": "skill",
+        "path": ".opencode/skills/code-quality/SKILL.md",
+        "description": "Code quality review",
+        "tags": [
+          "code-review",
+          "workflow"
+        ],
+        "dependencies": [],
+        "category": "essential",
+        "files": [
+          ".opencode/skills/code-quality/SKILL.md",
+        ]
+      },
+      {
         "id": "task-management",
         "name": "Task Management",
         "type": "skill",
